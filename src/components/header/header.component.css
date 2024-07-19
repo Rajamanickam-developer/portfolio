@@ -22,8 +22,9 @@ header > img{
     justify-content: space-around;
     align-items: center;
     padding: 2rem;  
-    background-color: #000;
+    /* background-color: #000; */
     margin: 1rem;
+    border-bottom: 1px solid darkgray;
 }
 
 html{
@@ -33,17 +34,16 @@ html{
 .header-content li{
     list-style-type: none;
     padding: 0 1rem;
-    color: aliceblue;
-    background-color: #000;
+    /* color: #2a9d8f; */
+    color: black;
+    /* background-color: #000; */
     letter-spacing: 1px;
     text-transform:capitalize;
 }
 
 .header-content li:hover{
-    color: #2a9d8f;
     transition: 0.2s;
     cursor: pointer;
-    transform:translateY(-2px);
 }
 
 .header-content{
@@ -51,7 +51,7 @@ html{
 }
 
 .contact-btn{
-    padding: 2px 12px;
+    padding: 5px 12px;
     background-color: #000;
     border: 1px solid #2a9d8f;
     color: #2a9d8f;
@@ -66,8 +66,4 @@ html{
     background-color: #2a9d8f;
     transition: 0.5s;
     border: 1px solid #2a9d8f;
-}
-
-ul li{
-    background-color:#2a9d8f ;
 }
